@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Uber Move", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: local("UberMoveTextRegular"),
+    url(../fonts/UberMoveTextRegular.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: local("UberMoveTextBold"),
+    url(../fonts/UberMoveTextBold.otf) format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
