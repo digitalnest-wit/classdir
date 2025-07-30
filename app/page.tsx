@@ -16,6 +16,12 @@ export default function Home() {
           careerGoal="To be a full-time software engineer at a company whose mission aligns with mine"
         />
         {/* Add your cards here :) */}
+        <StudentCard
+          name="Xavier Perez"
+          funFact="My cat is Siamese"
+          favoriteLanguage="HTML"
+          careerGoal="To be a full-time software engineer or web developer at a company that focuses on creativity and had artistic values"
+        />
       </div>
     </div>
   );
