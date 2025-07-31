@@ -10,6 +10,12 @@ export default function Home() {
       </p>
       <div className="flex flex-col justify-center gap-3 mt-3">
         <StudentCard
+          name="Jared Esquivel"
+          funFact="I enjoy playing the piano"
+          favoriteLanguage="Python"
+          careerGoal="Explore Careers in Cybersecurity, Software Development and Fintech."
+        />
+        <StudentCard
           name="Leonardo Villalobos"
           funFact="I haven't seen snow before"
           favoriteLanguage="Go"
