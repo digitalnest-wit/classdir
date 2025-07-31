@@ -21,6 +21,12 @@ export default function Home() {
           favoriteLanguage="python"
           careerGoal="To be a computer engineer."
         />
+        <StudentCard
+          name="Roberto"
+          funFact="I can't solve a 2x2 Rubix cube"
+          favoriteLanguage="japanese"
+          careerGoal="To make my own or help make a game one day"
+        />
         {/* Add your cards here :) */}
       </div>
     </div>
