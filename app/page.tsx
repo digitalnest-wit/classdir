@@ -15,6 +15,12 @@ export default function Home() {
           favoriteLanguage="Go"
           careerGoal="I want to be a 10x developer"
         />
+        <StudentCard
+          name="Daniel Fernandez-Amaya"
+          funFact="I repair broken consoles"
+          favoriteLanguage="python"
+          careerGoal="To be a computer engineer."
+        />
         {/* Add your cards here :) */}
       </div>
     </div>
