@@ -10,10 +10,10 @@ export default function Home() {
       </p>
       <div className="flex flex-col justify-center gap-3 mt-3">
         <StudentCard
-          name="Leo Villalobos"
-          funFact="I haven't broken a bone (yet)"
+          name="Leonardo Villalobos"
+          funFact="I haven't seen snow before"
           favoriteLanguage="Go"
-          careerGoal="To be a full-time software engineer at a company whose mission aligns with mine"
+          careerGoal="I want to be a 10x developer"
         />
         {/* Add your cards here :) */}
       </div>
